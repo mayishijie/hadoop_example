@@ -29,6 +29,9 @@ public class PhDriver {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(PhoneBean.class);
 
+
+        //job.setNumReduceTasks(5);
+
         FileInputFormat.setInputPaths(job, new Path("/Users/tty/IdeaProjects/bigdata/hadoop_example/src/main/resources/testFile/ph.txt"));
         FileOutputFormat.setOutputPath(job,new Path("/Users/tty/IdeaProjects/bigdata/hadoop_example/src/main/resources/output"));
 
