@@ -10,6 +10,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import java.io.IOException;
 
 /**
+ * 自定义序列化
  * @author tty
  * @version 1.0 2021-03-31 09:57
  */
